@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY CAS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  
+<!-- Header Starts -->
+
+<header class="mycas_header">
+  <div class="container">
+    <nav>
+      <a href="#" class="logo_img">
+        <img src="assets/img/logo.svg" alt="img" />
+      </a>
+      <span class="menuicon" id="menuicon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+          <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/>
+        </svg>
+      </span>
+      <!-- <span class="menuiconclose">     
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+            <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"/>
+          </svg>
+      </span> -->
+      <ul class="menulist hide" id="menulist">
+        <li>
+          <a href="#">Discover</a>
+        </li>
+        <li>
+          <a href="#">Institutions</a>
+        </li>
+        <li>
+          <a href="#">Courses</a>
+        </li>
+        <li>
+          <a href="#">How to Apply</a>
+        </li>
+        <li>
+          <a href="#">Connect With Us</a>
+        </li>
+        <li>
+          <a href="#" class="search_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+              <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.892 21.115">
+              <path id="Path_64010" data-name="Path 64010" d="M594.638,391.549c-.731,0-1.41,0-2.046-.006a1.557,1.557,0,0,1-1.4-.459,3.884,3.884,0,0,1-.563-1.467,4.96,4.96,0,0,0,1.172-1.958,1.374,1.374,0,0,0,.66-.736,3.543,3.543,0,0,0,.225-1.438l0-.183-.157-.1c-.029-.02-.06-.038-.09-.057.348-2.449.055-3.583-1.045-4.456a6.262,6.262,0,0,0-6.7-.138c-1.177.835-1.6,2.318-1.286,4.544a1.693,1.693,0,0,0-.182.107l-.156.1,0,.183a3.551,3.551,0,0,0,.214,1.415,1.411,1.411,0,0,0,.636.742,4.984,4.984,0,0,0,1.065,1.855,3.467,3.467,0,0,1-.757,1.784,2.533,2.533,0,0,1-1.276.164c-.592,0-1.22,0-1.9,0-1.746,1.6-2.866,5.368-2.591,7.826,2.87,1.933,16.681,2.047,18.851,0-.047-2.159-.457-5.845-2.676-7.719Z" transform="translate(-578.421 -379.646)" fill="#7e7e7e" fill-rule="evenodd"/>
+            </svg>
+            My Account
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Header Ends -->
+
+<!-- Hero Starts -->
+
+<section class="hero">
+  <div class="container">
+    <div class="heroContent">
+      <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">studying in malaysia simplified</h1>
+      <div class="search_course" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+        <div class="form_heading">
+          <h4>Search Courses Quickly</h4>
+          <p>Which course is right for you</p>
+        </div>
+        <form>
+          <div class="input_field">
+            <label>Field of Study</label>
+            <select>
+              <option>Select</option>
+              <option>Select 1</option>
+            </select>
+          </div>
+          <div class="input_field">
+            <label>Level of Study</label>
+            <select>
+              <option>Select</option>
+              <option>Select 1</option>
+            </select>
+          </div>
+          <div class="input_field">
+            <label>Fee Range</label>
+            <select>
+              <option>Select</option>
+              <option>Select 1</option>
+            </select>
+          </div>
+          <div class="input_search">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50">
+              <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"/>
+            </svg>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hero Ends -->
+
+<!-- Section 1 Starts -->
+
+<section class="section1">
+  <div class="container">
+    <div class="section1_content">
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <img src="assets/img/sec1-img1.png" alt="img" />
+        <figcaption>
+          <h3>discover</h3>
+          <p>Use our information on careers, apprenticeships and university to explore what routes available and which one is right for you</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <img src="assets/img/sec1-img2.png" alt="img" />
+        <figcaption>
+          <h3>apply today</h3>
+          <p>Use our information on careers, apprenticeships and university to explore what routes available</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+        <img src="assets/img/sec1-img3.png" alt="img" />
+        <figcaption>
+          <h3>Find my Match</h3>
+          <p>I'm just starting to explore university College</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+        <img src="assets/img/sec1-img4.png" alt="img" />
+        <figcaption>
+          <h3>See my chances</h3>
+          <p>I have university in my mind and want to know if I would get accepted</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+        <img src="assets/img/sec1-img5.png" alt="img" />
+        <figcaption>
+          <h3>I'm looking for scholarships</h3>
+          <p>I'm looking for scholarship offers</p>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- Section1 Ends -->
+
+<!-- Section2 Starts -->
+
+<section class="section2">
+  <div class="container">
+    <div class="section2_content">
+      <img src="assets/img/sec2-img.png" alt="img" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" />
+      <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Connect with our students to find out more</h3>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">I'm just starting to explore university</p>
+      <a href="#" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">download emgs connect APP</a>
+    </div>
+  </div>
+</section>
+
+<!-- Section2 Ends -->
+
+<!-- Section3 Starts -->
+
+<section class="section3">
+  <div class="container">
+    <div class="section3_content">
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <img src="assets/img/sec2-img1.png" alt="img" />
+        <figcaption>
+          <h3>Track Your Application</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <img src="assets/img/sec2-img2.png" alt="img" />
+        <figcaption>
+          <h3>Connect with students</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <img src="assets/img/sec2-img3.png" alt="img" />
+        <figcaption>
+          <h3>Scholarship Offers</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+        <img src="assets/img/sec2-img2.png" alt="img" />
+        <figcaption>
+          <h3>Discover your course eligibility</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+        <img src="assets/img/sec2-img5.png" alt="img" />
+        <figcaption>
+          <h3>Applying to university</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
+        <img src="assets/img/sec2-img1.png" alt="img" />
+        <figcaption>
+          <h3>Apprenticeships</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
+        <img src="assets/img/sec2-img3.png" alt="img" />
+        <figcaption>
+          <h3>Chat to students</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+      <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+        <img src="assets/img/sec2-img5.png" alt="img" />
+        <figcaption>
+          <h3>Student Accommodation</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Section3 Ends -->
+
+<!-- Section4 Starts -->
+
+<section class="section4">
+  <div class="container">
+    <div class="section4_content" >
+      <h2 data-aos="fade-right" data-aos-duration="1000">dont miss out! register today! <span>5 applications for just usd100</span></h2>
+      <img src="assets/img/sec4-img.png" alt="img" />
+      <a href="#" data-aos="fade-left" data-aos-duration="1000">create your account today!</a>
+    </div>
+  </div>
+</section>
+
+<!-- Section4 Ends -->
+
+<!-- Section5 Starts -->
+
+<section class="section5">
+  <div class="container">
+    <div class="section5_content">
+      <h2>News from MYCAS</h2>
+
+      <div class="section5_list">
+        <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <span>
+            <img src="assets/img/sec5-img1.png" alt="img" />
+          </span>
+          <figcaption>
+            <h4>Expand universities and colleges to meet soaring demand, say leading education thinkers</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+        <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <span>
+            <img src="assets/img/sec5-img2.png" alt="img" />
+          </span>
+          <figcaption>
+            <h4>Expand universities and colleges to meet soaring demand, say leading education thinkers</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+        <figure data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <span>
+            <img src="assets/img/sec5-img3.png" alt="img" />
+          </span>
+          <figcaption>
+            <h4>Expand universities and colleges to meet soaring demand, say leading education thinkers</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section5 Ends -->
+
+<!-- Section6 Starts -->
+
+<section class="section6">
+  <div class="container">
+    <a href="#" data-aos="fade-up" data-aos-duration="1000">
+      <img src="assets/img/sec6-bg.png" alt="img" />
+    </a>
+  </div>
+</section>
+
+<!-- Section6 Ends -->
+
+<!-- Footer Starts -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer_content">
+      <div class="footer_items" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <img src="assets/img/footer_logo.svg" alt="img" />
+        <label>Powered By</label>
+        <img src="assets/img/education_malaysia.svg" alt="img" />
+      </div>
+      <div class="footer_items" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <ul>
+          <li>
+            <a href="#">why malaysia</a>
+          </li>
+          <li>
+            <a href="#">institutions</a>
+          </li>
+          <li>
+            <a href="#">courses</a>
+          </li>
+          <li>
+            <a href="#">apply now</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_items" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+        <h5>my account</h5>
+        <ul class="smalllink">
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">contact us</a>
+          </li>
+        </ul>
+        
+      </div>
+      <div class="footer_items" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+        <h5>find us on</h5>
+        <ul class="socialicon">
+          <li>
+            <a href="#">
+              <img src="assets/img/fb.png" alt="img" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/ins.png" alt="img" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <div class="copyContent">
+        <p>&copy; 2023 myunizone sdn. all rights reserved.</p>
+        <ul>
+          <li>
+            <a href="#">sitemap</a>
+          </li>
+          <li>
+            <a href="#">privacy policy</a>
+          </li>
+          <li>
+            <a href="#">terms and conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer Ends -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+
+const toggleButton = document.getElementById("menuicon");
+const elementsToToggle = document.getElementsByClassName("menulist");
+
+toggleButton.addEventListener("click", () => {
+  Array.from(elementsToToggle).forEach(element => {
+    element.classList.toggle("hide");
+  });
+});
+</script>
+
+</body>
+</html>
