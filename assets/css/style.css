@@ -164,7 +164,7 @@ figure{
   height: 100%;
   width: 100%;
   background-image: url(../img/hero-bg.png);
-  background-position: 0;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all 1s ease;
@@ -174,7 +174,7 @@ figure{
 }
 
 .hero:hover:before {
-  background-position: -30px;
+  background-position: center 90%;
   opacity: 0.9;
 }
 
