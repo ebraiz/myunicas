@@ -174,7 +174,7 @@ figure{
 }
 
 .hero:hover:before {
-  background-position: center 90%;
+  background-position: center left;
   opacity: 0.9;
 }
 
@@ -731,7 +731,6 @@ figure{
     max-width: 960px;
   }
   .hero{
-    height: auto;
     padding-top: 200px;
     padding-bottom: 70px;
   }
@@ -747,6 +746,9 @@ figure{
   }
   .section3 .section3_content {
     margin-top: -13.5%;
+  }
+  .section4 .section4_content img{
+    display: none;
   }
   .hide{
     display: flex!important;
